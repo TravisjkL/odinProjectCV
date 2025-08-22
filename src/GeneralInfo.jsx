@@ -21,7 +21,7 @@ function GeneralForm() {
         <>
         <label>
             First Name: <input type="text" value={fName} onChange={(e) => setFName(e.target.value)} disabled={!canEdit} />
-            {/*This was just a test <p>First Name: {fName}</p>*/}
+            {/*This was just a test -> <p>First Name: {fName}</p>*/}
         </label>
 
         <label>
@@ -30,7 +30,7 @@ function GeneralForm() {
 
         <br />
         <label>
-            Email: <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} disabled={!canEdit} />
+            Email: <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} disabled={!canEdit} />
         </label>
 
         <label>
